@@ -1,22 +1,34 @@
 import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import HomepageBody from './components/HomepageBody';
+import Footer from './components/Footer';
 
 function App() {
+  const [searchSingleJoke, setSearchSingleJoke] = useState(false);
+  const [loadJokeFromSearch, setLoadJokeFromSearch] = useState(null);
+  const [dropdown, setdropdown] = useState(false);
+  const [newSearch, setNewSearch] = useState(false);
+
+
+  const handleSearch= (data)=>{
+    setNewSearch(data)
+  }
+  
+  const newToggleJokes= (data)=>{
+    console.log(data)
+    setSearchSingleJoke(true)
+    setLoadJokeFromSearch(data)
+    setdropdown(true)
+  }
   return (
     <div className="App">
-       <nav>
-        <div class="nav-links-container">
-            <div class="nav-link">
-                SO FUNKTIONIERTS
-            </div>
-            <div class="nav-link">
-                SONDERANGEBOTE     
-            </div>
-            <div class="nav-link">
-            <span><i>@</i></span><span>MEIN BEREICH</span> 
-            </div>
-        </div>
-      </nav>
+      <Navbar/>
+      <Header toggle={newToggleJokes} dropdown={dropdown} handleSearch={handleSearch}/>
+      <HomepageBody newSearch={newSearch} newJoke={loadJokeFromSearch}/>
+      <Footer/>
     </div>
   );
 }

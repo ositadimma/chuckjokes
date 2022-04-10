@@ -1,0 +1,107 @@
+.Header > div {
+  width: 100%;
+  height: 320px;
+  position: relative;
+  display: table;
+  margin: 0 auto;
+}
+
+.Header > div:nth-child(1) > div:nth-child(1) {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: #b2b2b2;
+}
+
+:-ms-input-placeholder {
+  color: #b2b2b2;
+}
+
+::-ms-input-placeholder {
+  color: #b2b2b2;
+}
+
+::placeholder {
+  color: #b2b2b2;
+}
+
+.Header > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+  font-size: 48px;
+  color: #cfb999;
+  line-height: 72px;
+  text-align: center;
+}
+
+.Header > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.Header > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) {
+  display: table;
+  margin: 0 auto;
+}
+
+#focus {
+  width: 400px;
+  padding: 12px;
+  border-radius: 5px;
+  border-color: #b2b2b2;
+  border-width: 0.5px;
+  border-style: solid;
+  color: #5e5e5e;
+  font-size: 14px;
+}
+
+.Header > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > input:nth-child(1):focus {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 3px;
+  background-color: #b2b2b2;
+  border-radius: 3px;
+  margin-top: 2px;
+}
+
+.Header > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > img:nth-child(2) {
+  position: absolute;
+  margin-left: -40px;
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .Header > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+    font-size: 30px;
+  }
+  .Header > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  #focus {
+    width: 250px;
+    font-size: 11px;
+  }
+  .Header > div {
+    height: 250px;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,374 @@
+.SingleJokeWrapper {
+  display: table;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f9f9f9;
+  width: 100%;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 100px;
+  width: 200px;
+  border-radius: 150px 150px 0px 0px;
+  background-color: black;
+}
+
+.SingleJokeFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jokeList > div {
+  font-size: 14px;
+  color: #303030;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.jokeListContainer > div:first-child {
+  font-size: 14px;
+  color: #303030;
+  margin-bottom: 15px;
+}
+
+.likeIcon {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #00a86b;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.likeIcon:hover {
+  background-color: #3f704d;
+}
+
+.dislikeIcon {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #d21f3c;
+  cursor: pointer;
+}
+
+.dislikeIcon:hover {
+  background-color: #7e191b;
+}
+
+.jokeListContainer {
+  background-color: #fff;
+  margin-left: 40px;
+  padding-left: 20px;
+  padding-top: 25px;
+  padding-right: 20px;
+}
+
+.utilityContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.iconsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jokeHeaderTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bestHeading {
+  font-weight: 600;
+}
+
+.SingleJokeContainer {
+  background-color: #fff;
+  padding-left: 16px;
+  width: 714px;
+  padding-bottom: 20px;
+  padding-top: 13px;
+}
+
+.jokeCategory {
+  background-color: #57e690;
+  font-size: 12px;
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 600;
+}
+
+.likeIconNumbers {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 6px;
+  width: 30px;
+  font-weight: 600;
+}
+
+.dot {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.jokeColumn {
+  margin-left: 10%;
+}
+
+.SingleJokeHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.SingleJokeHeaderText {
+  font-size: 40px;
+  width: 346px;
+  color: #cfb995;
+  line-height: 1.5;
+  font-weight: 600;
+  height: 60px;
+}
+
+.SingleJokeHeaderDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 368px;
+  padding-top: 26px;
+  color: #cfb995;
+  font-weight: 600;
+}
+
+.SingleJokeContent {
+  font-size: 14px;
+  color: #303030;
+  height: 166px;
+  margin-right: 20px;
+}
+
+.SingleJokeHeaderDetails > hr {
+  width: 60%;
+  height: 1px;
+  background-color: #cfb995;
+  color: #cfb995;
+  border: none;
+  margin-top: 13px;
+}
+
+.prevButton {
+  width: 100px;
+  color: #cfb995;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.nextButton {
+  width: 100px;
+  color: #cfb995;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.linkButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: right;
+  float: right;
+}
+
+.linkButtons > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+}
+
+.linkButtons > div:first-child {
+  margin-right: 20px;
+}
+
+.arrowRight {
+  height: 14px;
+  margin-top: 5px;
+}
+
+.arrowLeft {
+  height: 14px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+  .SingleJokeFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .arrowLeft {
+    margin-top: 5px;
+  }
+  .linkButtons {
+    margin-left: 140px;
+  }
+  .utilityContainer {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  .jokeListContainer {
+    width: 200px;
+    margin-left: 5%;
+    margin-top: 50px;
+  }
+  .jokeColumn {
+    margin-left: 5%;
+  }
+  .SingleJokeContainer {
+    width: 500px;
+  }
+  .SingleJokeHeaderText {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .SingleJokeContainer {
+    width: 350px;
+  }
+  .SingleJokeHeaderText {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .SingleJokeHeaderDetails {
+    padding-top: 15px;
+  }
+  .jokeCategory {
+    font-size: 10px;
+  }
+  .SingleJokeContent {
+    margin-top: -15px;
+    font-size: 12px;
+    height: 140px;
+  }
+  .linkButtons {
+    margin-left: 80px;
+  }
+  .SingleJokeHeaderDetails > hr {
+    width: 50%;
+  }
+  .prevButton {
+    font-size: 12px;
+  }
+  .nextButton {
+    font-size: 12px;
+  }
+  .linkButtons > div:first-child {
+    margin-right: 10px;
+  }
+  .linkButtons > div {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .arrowRight {
+    height: 10px;
+    margin-top: 6px;
+  }
+  .arrowLeft {
+    height: 10px;
+    margin-top: 6px;
+  }
+  .jokeList > div {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .SingleJokeContainer {
+    width: 250px;
+  }
+  .jokeCategory {
+    font-size: 8px;
+  }
+  .status {
+    font-size: 12px;
+  }
+  .SingleJokeHeaderText {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .SingleJokeHeaderDetails > hr {
+    width: 30%;
+  }
+  .SingleJokeContent {
+    margin-top: -25px;
+    font-size: 10px;
+    height: 100px;
+  }
+  .utilityContainer {
+    margin-left: 0px;
+  }
+  .linkButtons {
+    margin-left: 20px;
+  }
+  .likeIcon {
+    margin-right: 15px;
+  }
+  .prevButton {
+    font-size: 10px;
+  }
+  .nextButton {
+    font-size: 10px;
+  }
+  .linkButtons > div {
+    width: 70px;
+  }
+}
+/*# sourceMappingURL=SingleJoke.css.map */

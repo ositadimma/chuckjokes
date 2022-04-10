@@ -1,0 +1,284 @@
+.HomepageBody {
+  padding-top: 30px;
+  display: table;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.multipleJokesContainer {
+  margin-right: 8vw;
+  margin-left: 8vw;
+}
+
+.multipleJokes {
+  margin-left: -20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.multipleJokes > div {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-left: 20px;
+  width: 166px;
+  margin-top: 15px;
+  border-radius: 1px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.viewAllLink {
+  color: #d0ba93;
+  border: #d0ba93 solid 1px;
+  padding-right: 0px;
+  padding-left: 45px;
+  width: 159px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.viewAllLinkText {
+  color: #d0ba93;
+  text-align: right;
+  width: 68%;
+  text-align: right;
+  margin-right: 20%;
+}
+
+.HomepageBody > div:nth-child(1) > div:nth-child(8) > div:nth-child(2) {
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
+.HomepageBody > div:nth-child(2) > div:nth-child(1) {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #ff915b;
+  color: #fff;
+  border-radius: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 12px;
+  margin-left: 8vw;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.loadedJokes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 8vw;
+  margin-left: 8vw;
+}
+
+.jokeContainer {
+  width: 328px;
+  padding: 16px;
+  margin-right: 16px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.jokeContainer:hover {
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/*.jokeContainer> div{
+    width: 174px;
+}*/
+.jokeHeader {
+  font-size: 16px;
+  text-align: left;
+  line-height: 26px;
+  font-weight: 600px;
+  color: #303030;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.noJokes {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  font-size: 16px;
+  text-align: left;
+  line-height: 26px;
+  font-weight: 600px;
+  color: #303030;
+}
+
+.boltIcon {
+  margin-right: 5px;
+  padding-top: 3px;
+  height: 15px !important;
+}
+
+.jokeContent {
+  font-size: 14px;
+  text-align: left;
+  margin-top: 5px;
+  height: 149px;
+  margin-bottom: 22px;
+  color: #303030;
+}
+
+.statsLink {
+  text-align: right;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.statsLinkText {
+  font-size: 14px;
+  margin-right: 10px;
+  height: 30px;
+  line-height: 30px;
+  color: #cfb995;
+  font-weight: 600;
+}
+
+.statsLinkIconContainer {
+  height: 25px;
+  padding-top: 5.5px;
+}
+
+.viewMoreLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: #d0ba93 0.5px solid;
+  width: 186px;
+  font-size: 13px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  margin-bottom: 30px;
+}
+
+.viewMoreLinkText {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  padding-right: 20px;
+  text-align: right;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  padding-top: 1px;
+  color: #cfb995;
+  font-weight: 600;
+  line-height: 1.43;
+}
+
+.viewMoreLinkContainer {
+  display: table;
+  margin: 0 auto;
+}
+
+.viewMoreLink > div:nth-child(2) {
+  padding-top: 2px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+@media screen and (max-width: 822px) {
+  .viewMoreLink {
+    margin-left: -250px;
+  }
+}
+
+@media screen and (max-width: 629px) {
+  .viewMoreLink {
+    margin-left: -150px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .multipleJokes > div {
+    width: 90px;
+    font-size: 9px;
+  }
+  .multipleJokesContainer {
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+  .jokeHeader {
+    font-size: 12px;
+  }
+  .jokeContent {
+    font-size: 10px;
+    height: 90px;
+  }
+  .jokeContainer {
+    width: 250px;
+  }
+  .loadedJokes {
+    margin-left: 4vw;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .viewMoreLink {
+    margin-left: -80px;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  .viewMoreLink {
+    margin-left: -80px;
+  }
+  .jokeContainer {
+    width: 230px;
+  }
+}
+
+@media screen and (max-width: 305px) {
+  .multipleJokesContainer {
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  .loadedJokes {
+    margin-left: 2vw;
+  }
+  .jokeContent {
+    font-size: 9px;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .SingleJokeFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=HomepageBody.css.map */

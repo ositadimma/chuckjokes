@@ -1,0 +1,116 @@
+
+
+.mobileMenuIcon{
+    border: 1px #f9f9f9 solid;
+    width: fit-content;
+    border-radius: 5px;
+   height: 30px;
+    background: transparent;
+   margin-top: 8px; 
+   margin-bottom: 10px;
+   margin-right: 30px;
+   cursor: pointer;
+}
+
+.mobileMenuIcon> div{
+    width: 23px;
+    height: 2px;
+    margin: 6px;
+    background-color: $white;
+}
+
+.close{
+    border: 1px #f9f9f9 solid;
+    width: fit-content;
+    border-radius: 5px;
+   height: 30px;
+    background: transparent;
+   margin-top: 8px; 
+   margin-bottom: 10px;
+   margin-right: 30px;
+   font-size: 28px;
+   padding-left: 10px;
+   padding-right: 10px;
+   cursor: pointer;
+   color: #f9f9f9; 
+}
+
+.closeiCon{
+    margin-top: -5px;
+}
+.subDropdown{
+    font-size: 12px;
+    font-weight: 600;
+}
+.subDropdown>div{
+  padding-left: 25px;
+  padding-bottom: 8px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.subDropdown>div:hover{
+    color: #cfb99c;
+}
+.mobileDropdown{
+    position: absolute;
+    z-index: 2;
+    background: #f9f9f9;
+    right: 20px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    width: 200px;
+    margin-top: 5px;
+}
+.line{
+    height: 1px;
+    width: 90%;
+    background-color: #b2b2b2;
+}
+
+.mobileNavLink{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.mobileNavOptions{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.mobileNavLink:hover{
+    color: #cfb99c;
+}
+
+.mobileNavOptions:hover{
+  color: #cfb99c;
+}
+.nav-pointer{
+    height: 10px;
+    width: 10px;
+    background-color: #ffffff; 
+    border-left: 1px solid rgba(34,36,38,.15);
+    border-top: 1px solid rgba(34,36,38,.15);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-top: -10px;
+    left: 28px;
+    z-index: 3;
+}
+
+
+@media screen and(max-width: 414px) {
+   
+     .mobileMenuIcon{
+         margin-right: 15px;
+     }
+ }

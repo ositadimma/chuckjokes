@@ -1,0 +1,70 @@
+.dropdown-container{
+    position: absolute;
+    z-index: 2;
+    background-color: #ffffff;
+    border-radius: 5px;
+    right: 100px;
+    width: 230px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-top: 15px;
+}
+
+.dropdown> div{
+ text-align: left;
+ padding-left: 20px;
+ font-size: 14px;
+ line-height: 1.43;
+ padding-top: 8px;
+ padding-bottom: 7.5px;
+ color: #5e5e5e;
+ cursor: pointer;
+}
+
+.dropdown> div:last-child{
+    padding-bottom: 15px;
+}
+
+.pointer{
+    height: 10px;
+    width: 10px;
+    background-color: #ffffff; 
+    position: absolute;
+    border-left: 1px solid rgba(34,36,38,.15);
+    border-top: 1px solid rgba(34,36,38,.15);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-top: -5px;
+    right: 28px;
+}
+
+hr{
+    color: rgba(0,0,0,0.15);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 1px;
+    border: none;
+}
+
+.dropdown > div:hover{
+    color: #cfb995;
+}
+
+
+@media screen and(max-width: 500px) {
+    .Header > div:nth-child(1) > div:nth-child(1) > div:nth-child(1){
+        font-size: 30px;
+    }
+    .Header > div:nth-child(1) > div:nth-child(1) > div:nth-child(2){
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    #focus{
+        width: 250px;
+        font-size: 11px;
+    }
+    .Header > div{
+        height: 250px;
+    }
+}
