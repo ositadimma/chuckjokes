@@ -1,6 +1,6 @@
 .header-dropdown-container {
   position: absolute;
-  z-index: 2;
+  z-index: 300;
   background-color: #ffffff;
   border-radius: 1.5px;
   -ms-grid-column-align: center;
@@ -77,9 +77,14 @@
   .header-dropdown-container {
     width: 280px;
     border-radius: 5px;
+    height: 120px;
   }
   .dropdown-link {
-    font-size: 13px;
+    font-size: 11px;
+  }
+  .header-dropdown > div {
+    padding-bottom: 5px;
+    font-size: 11px;
   }
 }
 /*# sourceMappingURL=SearchBar.css.map */

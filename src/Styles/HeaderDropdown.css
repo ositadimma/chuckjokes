@@ -14,6 +14,10 @@
   overflow-y: auto;
 }
 
+.header-dropdown:focus {
+  outline: none;
+}
+
 .header-dropdown-container:focus {
   outline: none;
 }

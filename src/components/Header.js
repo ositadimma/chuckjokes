@@ -18,7 +18,7 @@ function Header(props) {
  const [searchData, setSearchData] = useState([]);
  const [bg, setBg] = useState('transparent');
  const [keyDown, setKeyDown] = useState(false);
- const inputRef = useRef(null);
+ const inputRef = useRef();
 
 
 
@@ -84,6 +84,10 @@ const handleKeyDown=(e)=>{
     if(e.keyCode===13){
         props.handleSearch(searchData)
     }
+    if(e.keyCode===40){
+        console.log(inputRef)
+        inputRef.current.focus()
+    }
     
 }
 
@@ -102,9 +106,7 @@ const handleKeyDown=(e)=>{
                     <input onKeyDown={(e)=>handleKeyDown(e)} style={{background: bg}} id='focus' value={input} onChange={handleInputChange} onFocus={handleInput} onBlur={handleBlur} placeholder='How can we make you laugh today?'>
                     </input>
                     <img src={activeSearchImage}/>
-                    {headerDropdown && <HeaderDropdown dropdownStatus={dropdownStatus} toggle={handleToggle} result={searchData} headerDropdown={headerDropdown}/>}
-                    
-                    {/*<SearchBar result={searchData}/>*/}
+                    {headerDropdown && <HeaderDropdown uref={inputRef} dropdownStatus={dropdownStatus} toggle={handleToggle} result={searchData} headerDropdown={headerDropdown}/>}
                 </div>
                 
            </div>

@@ -65,8 +65,9 @@ function SingleJoke(props) {
   return (
     <div className='SingleJokeWrapper'> 
     <div onClick={returnToMultiple} style={{marginLeft: '10%', marginBottom: 30}}>
-    <img style={{position: 'absolute', marginTop: 17, zIndex: 2, paddingLeft: 12, height: 13}} src={arrowLeft}/>  
-    <img style={{width: 50, transform: 'rotate(80deg)'}} src={goBackbg}/>  
+    <div className='goBackBtn'>
+    <img className='goBackArrow' src={arrowLeft}/> 
+    </div>
     </div>
     <div className='SingleJokeFlex'>
         <div className='jokeColumn'>

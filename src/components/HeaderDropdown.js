@@ -76,10 +76,10 @@ function HeaderDropdown(props) {
     }
     
   return (
-    <div  className='header-dropdown-container' tabIndex={0} >   
+    <div   className='header-dropdown-container' >   
         <div className='header-pointer'>
                 </div>
-       <div  className='header-dropdown' >
+       <div ref={props.uref}  className='header-dropdown' tabIndex={0}>
                 {activeResult}
        </div>
        
